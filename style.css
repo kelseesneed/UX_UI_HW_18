@@ -1,0 +1,200 @@
+
+nav {
+	background-color: #fabab6;
+	overflow: hidden;
+	padding: 16px;
+	border-bottom: 1px solid #000;
+}
+
+nav	a {
+		color: #000;
+}
+
+
+nav .navWide .wideDiv {
+	text-align: left;
+  padding: 1px;
+}
+
+nav .navWide .wideDiv a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+nav	.navNarrow i {
+	float: left;
+	cursor: pointer;
+	color: #000;
+}
+
+nav .navNarrow .narrowLinks a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	clear: left;
+	padding: 0.5px 0;
+}
+
+@media (min-width: 480px) {
+	
+	nav .navWide {
+		display: block;
+	}
+
+	nav .navNarrow {
+		display: none;
+	}
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+
+.hero {
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+  background-image: url(images/236A2154\ \(3\).jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin-left: 5px;
+  margin-top: 0;
+    margin-bottom: 0.5em;
+  color: white;
+  font-weight: 200;
+}
+
+.hero h2 {
+  color: #fabab6;
+  font-weight: 100;
+  margin-left: 5px;
+}
+
+.hero p {
+  color: rgb(255, 233, 233);
+  font-weight: lighter;
+  margin-left: 5px;
+}
+.hero .btn {
+  display: block;
+  width: 145px;
+  padding: 16px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: auto;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: rgb(255, 241, 241);
+}
+
+
+
+
+
+
+
+.mySkills, span {
+  display: flex;
+ text-align: left;
+
+}
+
+.flexContainer {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.row {
+  content: center;
+  margin: 5px;
+  justify-content: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+
+footer {
+  background-color: #fabab6;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+.myWork {
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+
+.container .box { 
+  width:33%; 
+  display:table; 
+} 
+.container .box .box-row { 
+  display:table-row; 
+} 
+.container .box .box-cell { 
+  display:table-cell; 
+  width:33%; 
+  padding:10px; 
+} 
+.container .box .box-cell.box1 { 
+  
+  color:black; 
+  text-align:justify; 
+  stroke: black;
+} 
+
+.container .box .box-cell.box2 { 
+  text-align:justify 
+} 
+
+
+
